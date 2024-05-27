@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080808;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    background-color: #060606;
+    color: #FFFFFF;
+    padding: 10px;
+}
+header > nav{
+    display: flex;
+}
+header > nav > div > ul{
+    list-style: none;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+
+header > nav > div > ul > li > .arrow{
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+
+header > nav > div > ul > li{
+    margin: 0 10px;
+}
+
+.text{
+    font-size: 15pt;
+} 
+.principal{
+    font-family: Raleway;
+    font-size: 65pt;
+    font-weight: 400;
+}
+
+main > section#inicio{
+    color: #FFFFFF;
+    background-color: #080808;
+    text-align: center;
+    padding: 50px 0px;
+}
+main > section#inicio > article > button{
+    background-color: #0CB4CD;
+    border-style: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 20px 0 100px 0;
+}
+main > section#inicio > article >.principal{
+    width: 80%;
+    margin: 5px auto;
+}
+main > section#inicio > article > .text{
+    width: 40%;
+    margin: 25px auto 25px auto;
+}
+main > section#inicio > article > .text#top{
+    font-weight: bold;
+}
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+
+  main > section#quemSomos{
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+main > section#quemSomos > article > .principal{
+    font-family: Raleway;
+    font-size: 50pt;
+    font-weight: 500;
+}
+main > section#quemSomos > article > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+main > section#quemSomos > article > ul > li{
+    margin: 0 20px;
+    font-size: 15pt;
+}
+main > section#quemSomos > article > ul > li > ion-icon{
+    font-size: 50pt;
+}
+main > section#quemSomos > article > .text{
+    width: 80%;
+    margin: 25px auto 25px auto;
+}
+
+main > section#quemSomos > article > span#traco{
+    border-top: solid 3px #0CB4CD;  /* Define espessura (2px), cor (#000 - preto) e estilo (solid) da borda */
+    display: inline-block;        /* Faz com que o elemento se comporte como um elemento inline, mas ocupando espaço como um bloco */
+    width: 75px;                  /* Define a largura do traço */
+    height: 0px;  
+    border-radius: 20px;
+    margin: 20px 0 50px 0;
+}
+
+main > section#sobreNos{
+    color: #000000;
+    background-color: #F7F7F7;
+    text-align: center;
+    padding: 80px 0px;
+}
+main > section#sobreNos > article > article{
+    display: flex;
+    margin: 0px 200px;
+    gap: 50px;
+}
+
+
+
