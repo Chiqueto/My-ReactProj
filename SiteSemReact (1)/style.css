@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
@@ -37,6 +37,14 @@ header > nav > div > ul > li{
     margin: 0 10px;
 }
 
+header > .principal{
+    font-size: 30pt;
+    margin-bottom: 0;
+}
+
+hr{
+    border-top: solid 1px #FFFFFF;  /* Define espessura (2px), cor (#000 - preto) e estilo (solid) da borda */
+}
 .text{
     font-size: 15pt;
 } 
@@ -44,6 +52,7 @@ header > nav > div > ul > li{
     font-family: Raleway;
     font-size: 65pt;
     font-weight: 400;
+    margin-bottom: 25px;
 }
 
 main > section#inicio{
@@ -127,7 +136,7 @@ main > section#quemSomos > article > span#traco{
     width: 75px;                  /* Define a largura do traço */
     height: 0px;  
     border-radius: 20px;
-    margin: 20px 0 50px 0;
+    margin: 0px 0 50px 0;
 }
 
 main > section#sobreNos{
@@ -138,9 +147,35 @@ main > section#sobreNos{
 }
 main > section#sobreNos > article > article{
     display: flex;
-    margin: 0px 200px;
+    margin: 0px 15%;
     gap: 50px;
 }
+footer{
+    padding: 5px;
+    
+}
+footer .text{
+    font-family: Raleway;
+    font-size: 10pt;
+    font-style: italic;
+    color: #FFFFFF;
+}
 
+footer > ul{
+    list-style: none;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+footer > ul > li{
+    margin: 0 15px;
+    color: #FFFFFF;
+}
 
+footer > ul > li > a{
+    color: #FFFFFF;
+}
 
